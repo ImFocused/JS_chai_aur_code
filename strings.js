@@ -1,0 +1,22 @@
+const name = "Pro"
+const repoCount = 40
+
+// String INTERpolation with backtics and $ sign PLACEHOLDERS 
+
+console.log(`My name is ${name} and my repocount is ${repoCount}  `)
+
+const str = new String("Pratham J")
+console.log(str.toUpperCase())
+console.log(str.length)
+console.log(str[0]) // Strings itself store value in the form of key value pairs 
+
+// charAt used for finding char on supplied index charAt(2)
+// indexOf('y') for finding the index number 
+
+// str.substring(start,end) => only accepts positive values of start , end
+// str.slice(start,end) => accepts all
+
+// str.replace
+
+console.log(str.split(" "))
+// creates new splitted array from strings 
