@@ -30,3 +30,11 @@ console.log(num2.toString())
 console.log(num2.toString().length) // here we can convert numbers to strings to use more props
 
 console.log(num2.toLocaleString("En-IN")) // used for convenience of commas between numbers default is USA
+
+// Math function Math.abs(-4) , Math.round() ,  Math.ceil() , Math.floor() 
+// Math.random() // always gets values between 0 to 1
+
+const max = 20;
+const min = 10;
+
+console.log(Math.floor((Math.random())* (max-min+1)+min)) // for generating random value between max and min
