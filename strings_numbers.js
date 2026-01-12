@@ -20,3 +20,13 @@ console.log(str[0]) // Strings itself store value in the form of key value pairs
 
 console.log(str.split(" "))
 // creates new splitted array from strings 
+
+// NUMBERS -------------------------------------------------------------------------------------------------------------
+
+const num2 = new Number(1000)
+console.log(num2.toFixed(3)) // to fixed decimals NUMBER PROPERTY 
+
+console.log(num2.toString())
+console.log(num2.toString().length) // here we can convert numbers to strings to use more props
+
+console.log(num2.toLocaleString("En-IN")) // used for convenience of commas between numbers default is USA
