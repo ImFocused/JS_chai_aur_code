@@ -1,5 +1,5 @@
 // created with CONSTRUCTOR are SINGLETON OBJECTS as... 
-// const tinderuser = new Object()
+// const tinderuser = new Object(....)
 
 /* objects created with LITERALS are not SINGLETON as... 
 const obj = {
@@ -27,9 +27,15 @@ const obj2 ={
     b : "2"
 }
 
-const obj3 = Object.assign({},obj1,obj2) // {} is used to sum all key values into one common object 
+const object1 ={
+    c : "1",
+    d : "2"
+}
+
+const obj3 = {...object1,...obj2} 
+// Object.assign({},obj1,obj2)                               // {} is used to sum all key values into one common object  
 console.log(obj3)
-// We can also use SPREAD here too [...obj1,...obj2]
+// We can also use SPREAD and assign here too 
 
 // for getting keys and values 
 console.log(Object.keys(obj2));
@@ -48,8 +54,8 @@ console.log(n)
 
 // API JSON FORMAT
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
