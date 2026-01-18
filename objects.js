@@ -30,3 +30,26 @@ const obj2 ={
 const obj3 = Object.assign({},obj1,obj2) // {} is used to sum all key values into one common object 
 console.log(obj3)
 // We can also use SPREAD here too [...obj1,...obj2]
+
+// for getting keys and values 
+console.log(Object.keys(obj2));
+
+console.log(Object.values(obj2));
+
+// for key value pairs
+console.log(Object.entries(obj2));
+
+
+// OBJECTS DESTRUCTURING 
+// instead of obj1.name we will be writing ,
+
+const {name : n} = obj1  // destructured 
+console.log(n)
+
+// API JSON FORMAT
+
+[
+    {},
+    {},
+    {}
+]
