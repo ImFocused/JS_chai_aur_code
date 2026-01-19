@@ -59,3 +59,7 @@ console.log(n)
 //     {},
 //     {}
 // ]
+
+
+// ONLY in objects this keyword is used 
+

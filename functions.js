@@ -24,3 +24,21 @@ const addtwo = function(num) { // can also be declared like this
     return num + 2;
 }
 console.log(addtwo(5));  // VARIABLE FUNCTIONS CANNOT BE CALLED EARLIER BEFORE DECLARATION
+
+
+const arrowfn = () => {                    // ARROW FUNCTION
+    console.log("Hello using arrow fn")
+}
+
+
+// WITHOUT USING RETURN 
+
+const addop = (num1,num2) => (num1+num2) // () are used instead of return only 
+// but for objects we always have to use { } inside () 
+
+
+// IMMEDIATELY INVOKED FUNCTION EXPRESSIONS 
+
+(function chaii(){
+    console.log(`Database Connected !`)
+})(); // immediately invoked i.e called without any extra delays 
