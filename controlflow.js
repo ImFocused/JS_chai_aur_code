@@ -34,3 +34,34 @@ if(Object.keys(empobj).length == 0){       // as Object.keys() returns an array
 
 // ternary operator 
 //condition ? true ; false
+
+// FOR - OF LOOP 
+// Can also be used for MAP datatype which is unique , in key value pairs and like object 
+// map are not iterable
+
+arr = [1,2,3,4,5]
+for(const num of arr){
+    console.log(num)
+}
+
+str = "Hello Pro!"
+for(const letters of str){
+    console.log(`Each letter is ${letters}`)
+}
+
+// FOR IN loop specially for objects and for ARRAYS too but gives indexes as arrays keys are indexes
+
+const myobj = {
+    js : 'javascript',
+    cpp : 'c++',
+    rb : 'ruby'
+};
+
+for (items in myobj){
+    console.log(`${items} is shortcut for ${myobj[items]}`);  // [] for value pairs
+}
+
+const myarr1 = ["js","cpp","py"]
+for(keys in myarr1){
+    console.log(keys);
+}
