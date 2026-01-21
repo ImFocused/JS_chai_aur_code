@@ -65,3 +65,16 @@ const myarr1 = ["js","cpp","py"]
 for(keys in myarr1){
     console.log(keys);
 }
+
+// FOREACH uses callback function 
+
+myarr1.forEach(function(items) {
+    console.log(items)
+})
+
+myarr1.forEach((val)=>{  // val or anything can write
+    console.log(val)
+})
+
+// can also be used for array of objects to get values easily
+// [ {}, {}, {} ]
