@@ -14,3 +14,11 @@ document.querySelectorAll() // gets all values of selected tags
 
 // TO CONVERT HTML COLLECTION TO ARRAY USE ....
 Array.from(HTMLCollection) // gives us array with map and forEach ;)
+
+.firstElementChild // gives first element of the parent
+.lastElementChild // gives last element of the parent
+
+.parentElement // gives parent for the child selected
+.nextElementSibling // gives sibling of the child selected
+
+parent.childnodes // suggests all the child nodes which are in the form of tree 
