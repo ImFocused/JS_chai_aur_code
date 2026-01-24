@@ -8,3 +8,4 @@ div.style.backgroundColor = "lightblue";
 div.style.color = "black";
 div.style.padding = "10px";
 document.body.appendChild(div);  // have too append it at last as it was stored in memory only first
+
