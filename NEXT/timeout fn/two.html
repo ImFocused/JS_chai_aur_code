@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello PJ </h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+        let start;
+        const saydate = function(str){
+            console.log(str, new Date().toLocaleDateString()); // without new date creates string not a date obj
+
+        }
+        document.querySelector('#start').addEventListener("click",function(){
+            start = setInterval(saydate,1000,"Hello PRO");   // setinterval gives values again on given interval
+        })
+        
+        document.querySelector('#stop').addEventListener("click",function(){
+            clearInterval(start);  // clearinterval stops the interval which we have to pass
+ 
+        })
+    
+</script>
+</html>

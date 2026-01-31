@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello PJ </h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const changeText = function() {document.querySelector('h1').innerHTML = "Best Developer"};
+    let fn = setTimeout(changeText,3000)  // changetext function called here after 3 sec
+
+    // now to stop it before time we have 
+
+    document.querySelector('#stop').addEventListener("click",function(){
+        clearTimeout(fn)  // this 
+        console.log("Stopped");
+    })
+    
+</script>
+</html>
